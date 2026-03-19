@@ -21,8 +21,12 @@
     "test:all": "yarn test && yarn test:int && yarn lint:langgraph"
   },
   "dependencies": {
-    "@langchain/core": "^0.3.80",
-    "@langchain/langgraph": "^0.3.0"
+    "@langchain/core": "^1.1.34",
+    "@langchain/langgraph": "^1.2.3",
+    "zod": "^3.25.76"
+  },
+  "resolutions": {
+    "**/filelist/minimatch": "5.1.8"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.1.0",
