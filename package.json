@@ -23,7 +23,7 @@
   "dependencies": {
     "@langchain/core": "^1.1.36",
     "@langchain/langgraph": "^1.2.5",
-    "zod": "^3.25.76"
+    "zod": "^4.3.6"
   },
   "resolutions": {
     "**/filelist/minimatch": "5.1.8"
